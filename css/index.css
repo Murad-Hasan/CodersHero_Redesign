@@ -282,7 +282,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 600px;
+  height: 550px;
 }
 .step_one, .step_two, .step_three, .step_four, .step_five{
   text-align: center;
@@ -312,4 +312,26 @@
   font-size: 16px;
   line-height: 140%;
   color: #2A333A;
+}
+/*project section*/
+.project_card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0px;
+}
+.single_project_card{
+  position: relative;
+  width: 300px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.project_image{
+  height: 300px;
+  overflow: hidden;
+}
+
+.project_image img{
+  max-width: 100%;
+  overflow: hidden;
 }
