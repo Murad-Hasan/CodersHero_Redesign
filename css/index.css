@@ -282,7 +282,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 550px;
+  height: 600px;
 }
 .step_one, .step_two, .step_three, .step_four, .step_five{
   text-align: center;
