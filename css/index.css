@@ -313,6 +313,13 @@
   line-height: 140%;
   color: #2A333A;
 }
+/*project & product*/
+#projects_product_section{
+  background: url("../img/project&product_background.svg") no-repeat center center;
+  background-size: 1100px;
+
+}
+
 /*project section*/
 .project_card{
   display: flex;
@@ -334,4 +341,22 @@
 .project_image img{
   max-width: 100%;
   overflow: hidden;
+}
+
+/*Team Section*/
+
+.team_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.team__left__content{
+  flex: 1;
+}
+.team__right__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
