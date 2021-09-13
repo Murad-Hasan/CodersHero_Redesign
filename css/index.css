@@ -590,6 +590,8 @@
 .contact__section{
   display: flex;
   align-items: center;
+  gap: 20px;
+  height: 700px;
 }
 .left__contact__section{
   flex: 1;
@@ -648,6 +650,7 @@
 }
 #contact__button{
   background: #FEC200;
+  margin-top: 20px;
   border-radius: 20px;
   width: 150px;
   height: 40px;
@@ -692,3 +695,45 @@
   font-size: 20px;
   line-height: 150%;
 }
+.main__contact__container{
+  height: 550px;
+  max-width: 550px;
+  background-color: #FAFBFD;
+  border-radius: 10px;
+  padding: 10px 20px
+}
+.contact__info__title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.contact__info__paragraph{
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.contact__info__number, .contact__info__email{
+  font-size: 15px;
+  line-height: 26px;
+}
+.contact__social__link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social__media__icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.social__media__icon > li > i{
+  font-size: 25px;
+}
+.contact__image{
+  position: relative;
+  width: 320px;
+}
+.contact__image > img{
+  width: 100%;
+}
+
