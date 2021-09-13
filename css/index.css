@@ -579,3 +579,36 @@
 .card__paragraph{
   padding: 0px 15px;
 }
+
+
+/*contact section*/
+.contact__section{
+  display: flex;
+  align-items: center;
+}
+.left__contact__section{
+  flex: 1;
+}
+.right__contact__section{
+  flex: 1;
+}
+.basic__info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first__name, .last__name, .email, .phone__number{
+  width: calc(100% / 2 - 20px);
+}
+.input__box > label{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.input__box > input{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+}
