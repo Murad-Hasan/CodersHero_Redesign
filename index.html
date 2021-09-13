@@ -386,12 +386,16 @@
     </div>
   </section>
 <!--  contact section-->
+  <div class="contact__heading">
+    <h2 class="contact__title">Contact Us</h2>
+    <p class="contact__sub__title">Let us know what you looking for!!</p>
+  </div>
   <section id="contact__section">
     <div class="container">
       <div class="contact__section">
         <div class="left__contact__section">
           <div class="main__contact__container">
-            <img src="img/Shipping%201.png" alt="">
+            
           </div>
         </div>
         <div class="right__contact__section">
@@ -414,10 +418,21 @@
                   <label for="number">Phone Number</label>
                   <input type="number" name="number" id="number" required>
                 </div>
-
               </div>
-
-              <input type="submit" value="Submit">
+              <div class="service__needed">
+                <p class="radio_title">Please select your favorite Web language:</p>
+                <input type="radio" id="web_design" name="fav_language" value="Web Design" required>
+                <label for="web_design">Web Design</label>
+                <input type="radio" id="Web_Development" name="fav_language" value="Web Development" required>
+                <label for="Web_Development">Web Development</label>
+               <input type="radio" id="UI/UX" name="fav_language" value="UI/UX" required>
+               <label for="UI/UX">UI/UX Design</label>
+              </div>
+              <div class="massage__box">
+                <p class="msg__title">Message Box</p>
+                <textarea rows="4" cols="50" name="comment" required></textarea>
+              </div>
+              <button type="submit" id="contact__button"> <span>Send Massage</span> </button>
             </form>
           </div>
         </div>
