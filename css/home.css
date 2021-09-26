@@ -247,6 +247,9 @@
   height: 80vh;
   position: relative;
 }
+.team__right__content {
+  overflow: hidden;
+}
 .team__content {
   padding-bottom: 20px;
 }
@@ -269,6 +272,7 @@
 .team__left__button {
   z-index: -1;
 }
+
 .team__button {
   width: 200px;
   padding: 10px 20px;
@@ -387,16 +391,7 @@
 
 /*testimonial section*/
 #testimonial__section {
-  margin: 60px 0px;
-  height: 800px;
-}
-.testimonial__section {
-  display: flex;
-  align-items: center;
-  height: 80vh;
-}
-.left__testimonial__section {
-  flex: 40%;
+  margin: 150px 0px;
 }
 .testimonial__title {
   color: #fec200;
@@ -414,10 +409,6 @@
   color: #fec200;
   font-size: 16px;
   font-weight: 500;
-}
-.right__testimonial__section {
-  align-self: flex-start;
-  flex: 60%;
 }
 .testimonial__card {
   display: flex;
