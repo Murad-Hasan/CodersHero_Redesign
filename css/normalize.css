@@ -15,7 +15,7 @@ html {
 
 /* Sections
    ========================================================================== */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,11 +26,14 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-a{
+a {
   text-decoration: none;
   color: black;
+}
+p {
+  margin-bottom: 0;
 }
 
 /**
@@ -183,7 +186,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -193,7 +197,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -348,7 +353,7 @@ summary {
 template {
   display: none;
 }
-ul{
+ul {
   padding: 0;
   list-style: none;
 }

@@ -23,10 +23,13 @@
   <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     referrerpolicy="no-referrer" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/home.css" rel="stylesheet">
   <link href="css/global.css" rel="stylesheet">
+
 
 
   <meta content="#fafafa" name="theme-color">
@@ -57,41 +60,48 @@
   <main>
     <!--  Hero Section Start-->
     <section id="hero__section">
-      <div class="hero__content container">
-        <div class="hero__left__content">
-          <div class="hero__container">
-            <div class="sub__header">
-              <img alt="fire" src="img/fire_icon.svg">
-              <p class="sub__heading">Get Started</p>
-            </div>
-            <div class="hero__left__main__content">
-              <h1 class="hero__content__heading">
-                Let us built the bridge between your brand and customer
-              </h1>
-              <p class="hero__content__description">
-                We build websites that build your business. We develop websites that ignite your business. Because every
-                business is special & requires proper attention.
-              </p>
-            </div>
-            <div class="hero__content__button">
-              <button class="hero__button"><span class="button__text">Discover More</span></button>
-            </div>
-            <div class="hero__content__socialMenu">
-              <ul class="social__icon">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-linkedin"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fas fa-basketball-ball"></i></li>
-                <li><i class="fab fa-behance"></i></li>
-              </ul>
+      <div class="container my-5">
+        <div class="row flex-column-reverse flex-md-row flex-lg-row">
+          <div class="col-sm-12 col-md-6 col-xl-6">
+            <div class="hero__left__content">
+              <div class="d-flex justify-content-center">
+                <img src="img/Shapes.svg" alt="icons" width="300px">
+              </div>
+              <div class="hero__container">
+                <div class="d-flex justify-content-start align-items-center">
+                  <img alt="fire" src="img/fire_icon.svg">
+                  <p class="sub__heading">Get Started</p>
+                </div>
+                <div class="hero__left__main__content">
+                  <h1 class="hero__content__heading">
+                    Let us built the bridge between your brand and customer
+                  </h1>
+                  <p class="hero__content__description">
+                    We build websites that build your business. We develop websites that ignite your business. Because
+                    every
+                    business is special & requires proper attention.
+                  </p>
+                </div>
+                <div class="hero__content__button">
+                  <button class="hero__button"><span class="button__text">Discover More</span></button>
+                </div>
+                <div class="hero__content__socialMenu">
+                  <ul class="social__icon">
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fas fa-basketball-ball"></i></li>
+                    <li><i class="fab fa-behance"></i></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="hero__right__content">
-          <div class="hero__right_img">
-            <img alt="Hero Image" height="700px" src="img/Hero%20Illustration.svg" width="100%">
-            <div class="inner__img">
-              <img alt="female_Worker" height="320px" src="img/Group.svg">
+          <div class="col-sm-12 col-md-6 col-xl-6">
+            <div class="hero__right__content">
+              <div class="hero__right_img">
+                <img width="100%" src="img/Hero_section.svg" alt="Hero Image">
+              </div>
             </div>
           </div>
         </div>
@@ -101,7 +111,7 @@
 
     <!--  service section start-->
     <section id="service_section">
-      <div class="container">
+      <div class="container my-sm-3 my-md-5 my-lg-5">
         <div class="service_header">
           <div class="service__heading">
             <span class="service__heading__text">Our service</span>
@@ -112,45 +122,55 @@
           </div>
         </div>
         <div id='card_section'>
-          <div class="single_card">
-            <div class="img_box">
-              <img alt="" src="img/web_Design.svg">
+          <div class="row my-5 g-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="single_card">
+                <div class="img_box">
+                  <img alt="" src="img/web_Design.svg">
+                </div>
+                <div class="content">
+                  <h2>Web Design</h2>
+                  <hr />
+                  <p>Creative juices and mix within the ultra-modern tendencies in website UX and UI layout...</p>
+                </div>
+                <div class="card__button">
+                  <button class="hero__button"><span class="button__text">Learn More</span></button>
+                </div>
+              </div>
             </div>
-            <div class="content">
-              <h2>Web Design</h2>
-              <hr />
-              <p>Creative juices and mix within the ultra-modern tendencies in website UX and UI layout...</p>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="single_card">
+                <div class="img_box">
+                  <img alt="" src="img/web_Development.svg">
+                </div>
+                <div class="content">
+                  <h2>Web Development</h2>
+                  <hr />
+                  <p>Get responsive, fast, and user-pleasant web sites and landing pages to release the capability of
+                    your
+                    businesses...</p>
+                </div>
+                <div class="card__button">
+                  <button class="hero__button"><span class="button__text">Learn More</span></button>
+                </div>
+              </div>
             </div>
-            <div class="card__button">
-              <button class="hero__button"><span class="button__text">Learn More</span></button>
-            </div>
-          </div>
-          <div class="single_card">
-            <div class="img_box">
-              <img alt="" src="img/web_Development.svg">
-            </div>
-            <div class="content">
-              <h2>Web Development</h2>
-              <hr />
-              <p>Get responsive, fast, and user-pleasant web sites and landing pages to release the capability of your
-                businesses...</p>
-            </div>
-            <div class="card__button">
-              <button class="hero__button"><span class="button__text">Learn More</span></button>
-            </div>
-          </div>
-          <div class="single_card">
-            <div class="img_box">
-              <img alt="" src="img/UX%20Icon.svg">
-            </div>
-            <div class="content">
-              <h2>UI/UX Design</h2>
-              <hr />
-              <p>Perfect UX/UI Design make sure customer satisfaction that ultimately helps increase the number of users
-                for products...</p>
-            </div>
-            <div class="card__button">
-              <button class="hero__button"><span class="button__text">Learn More</span></button>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="single_card">
+                <div class="img_box">
+                  <img alt="" src="img/UX%20Icon.svg">
+                </div>
+                <div class="content">
+                  <h2>UI/UX Design</h2>
+                  <hr />
+                  <p>Perfect UX/UI Design make sure customer satisfaction that ultimately helps increase the number of
+                    users
+                    for products...</p>
+                </div>
+                <div class="card__button">
+                  <button class="hero__button"><span class="button__text">Learn More</span></button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -159,8 +179,8 @@
     <!--  service section end -->
 
     <!-- Work Process section start -->
-    <section id="word__process">
-      <div class="container">
+    <!-- <section id="word__process">
+      <div>
         <div class="work__process_header">
           <h2 class="work__process__heading">
             How Does It Work
@@ -221,13 +241,13 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Work Process section end -->
     <!--  Project and Product section-->
-    <section id="projects_product_section">
+    <section id="projects_product_section" class="py-4">
       <div class="container">
-        <section id="project_section">
-          <div class="work__process_header">
+        <section id="project_section" class="py-4">
+          <div class="work__process_header  py-3">
             <h2 class="work__process__heading">
               Top Projects
             </h2>
@@ -236,106 +256,127 @@
             </p>
           </div>
           <div class="project_card">
-            <div class="single_project_card">
-              <div class="project_image">
-                <img src="img/Group%2033969.png" alt="">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="single_project_card">
+                  <div class="project_image">
+                    <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="single_project_card">
-              <div class="project_image">
-                <img src="img/Group%2033969.png" alt="">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="single_project_card">
+                  <div class="project_image">
+                    <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="single_project_card">
-              <div class="project_image">
-                <img alt="" src="img/Group%2033969.png">
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="product_section">
-          <div class="work__process_header">
-            <h2 class="work__process__heading">
-              Products For Sell
-            </h2>
-            <p class="work__process_sub__heading">
-              Some Of Our Main Services Are Listed Below. We Provide Different Kind Of Services
-            </p>
-          </div>
-          <div class="project_card">
-            <div class="single_project_card">
-              <div class="project_image">
-                <img src="img/Rectangle%2064.svg" alt="">
-              </div>
-            </div>
-            <div class="single_project_card">
-              <div class="project_image">
-                <img src="img/Rectangle%2064.svg" alt="">
-              </div>
-            </div>
-            <div class="single_project_card">
-              <div class="project_image">
-                <img alt="" src="img/Rectangle%2064.svg">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="single_project_card">
+                  <div class="project_image">
+                    <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
+          <section id="product_section" class="py-4">
+            <div class="work__process_header  py-3">
+              <h2 class="work__process__heading">
+                Products For Sell
+              </h2>
+              <p class="work__process_sub__heading">
+                Some Of Our Main Services Are Listed Below. We Provide Different Kind Of Services
+              </p>
+            </div>
+            <div class="project_card">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="single_project_card">
+                    <div class="project_image">
+                      <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="single_project_card">
+                    <div class="project_image">
+                      <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="single_project_card">
+                    <div class="project_image">
+                      <img height="100%" width="100%" src="img/Group%2033969.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
       </div>
     </section>
+
 
 
     <!--  Team section-->
     <section id="core__team">
       <div class="container">
-        <div class="team_container">
-          <div class="team__left__content">
-            <div class="team__content">
-              <h2 class="team__heading">
-                Core Team
-              </h2>
-              <p class="team__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid consequuntur deleniti,
-                dicta dolore esse est eveniet excepturi, laboriosam maxime nostrum quae ratione recusandae
-                reprehenderit, saepe sapiente tempora tenetur.
-              </p>
-            </div>
-            <div class="team__image__button">
-              <div class="team__image">
-                <img src="img/Frame.svg" alt="">
+        <div class="row g-3">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center text-md-start text-lg-start text-xl-start">
+            <div class="team__left__content ">
+              <div class="team__content">
+                <h2 class="team__heading">
+                  Core Team
+                </h2>
+                <p class="team__paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid consequuntur
+                  deleniti,
+                  dicta dolore esse est eveniet excepturi, laboriosam maxime nostrum quae ratione recusandae
+                  reprehenderit, saepe sapiente tempora tenetur.
+                </p>
               </div>
-              <div class="team__left__button">
-                <button class="team__button">
-                  <span>Meet</span>
-                  <span>Heros</span>
-                </button>
+              <div class="team__image__button">
+                <div class="team__image">
+                  <img src="img/Frame.svg" alt="">
+                </div>
+                <div class="team__left__button">
+                  <button class="team__button">
+                    <span>Meet</span>
+                    <span>Heros</span>
+                  </button>
+                </div>
               </div>
             </div>
+
           </div>
-          <!--  solar system -->
-          <div class="team__right__content">
-            <div class="solar-system">
-              <div class="sun"></div>
-              <div class="avatar-1">
-                <div class="person-1 person_one_background"></div>
-              </div>
-              <div class="avatar-2">
-                <div class="person-2 person_two_background"></div>
-              </div>
-              <div class="avatar-3">
-                <div class="person-3 person_three_background"></div>
-              </div>
-              <div class="avatar-4">
-                <div class="person-4 person_four_background"></div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <!--  solar system -->
+            <div class="team__right__content d-flex justify-content-center align-items-center">
+              <div class="solar-system">
+                <div class="sun"></div>
+                <div class="avatar-1">
+                  <div class="person-1 person_one_background"></div>
+                </div>
+                <div class="avatar-2">
+                  <div class="person-2 person_two_background"></div>
+                </div>
+                <div class="avatar-3">
+                  <div class="person-3 person_three_background"></div>
+                </div>
+                <div class="avatar-4">
+                  <div class="person-4 person_four_background"></div>
+                </div>
               </div>
             </div>
+            <!--    solar system end-->
           </div>
-          <!--    solar system end-->
         </div>
       </div>
     </section>
 
     <!--  Testimonial section-->
-    <section id="testimonial__section">
+    <!-- <section id="testimonial__section">
       <div class="container">
         <div class="testimonial__section">
           <div class="left__testimonial__section">
@@ -394,77 +435,89 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--  contact section-->
     <div class="contact__heading">
       <h2 class="contact__title">Contact Us</h2>
       <p class="contact__sub__title">Let us know what you looking for!!</p>
     </div>
-    <section id="contact__section">
+    <section id="contact__section" class="py-5">
       <div class="container">
-        <div class="contact__section">
-          <div class="left__contact__section">
-            <div class="main__contact__container">
-              <div class="contact__information">
-                <p class="contact__info__title">Contact Information</p>
-                <p class="contact__info__paragraph">
-                  Fill up the form and our team will get back to <br /> you within 6 hours
-                </p>
-                <p class="contact__info__number"> <i class="fas fa-phone-alt"></i> +8801766255238</p>
-                <p class="contact__info__email"> <i class="fas fa-envelope-open-text"></i> codershero@gmail.com</p>
-              </div>
-              <div class="contact__social__link">
-                <div class="contact__social__icon">
-                  <ul class="social__media__icon">
-                    <li><i class="fab fa-facebook-f"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fas fa-basketball-ball"></i></li>
-                    <li><i class="fab fa-behance"></i></li>
-                  </ul>
+        <div class="row g-4">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="left__contact__section">
+              <div class="main__contact__container">
+                <div class="contact__information">
+                  <p class="contact__info__title">Contact Information</p>
+                  <p class="contact__info__paragraph">
+                    Fill up the form and our team will get back to <br /> you within 6 hours
+                  </p>
+                  <p class="contact__info__number"> <i class="fas fa-phone-alt"></i> +8801766255238</p>
+                  <p class="contact__info__email"> <i class="fas fa-envelope-open-text"></i> codershero@gmail.com</p>
                 </div>
-                <div class="contact__image">
-                  <img src="img/Shipping%201.png" alt="">
+                <div class="contact__social__link">
+                  <div class="contact__social__icon">
+                    <ul class="social__media__icon">
+                      <li><i class="fab fa-facebook-f"></i></li>
+                      <li><i class="fab fa-linkedin"></i></li>
+                      <li><i class="fab fa-twitter"></i></li>
+                      <li><i class="fas fa-basketball-ball"></i></li>
+                      <li><i class="fab fa-behance"></i></li>
+                    </ul>
+                  </div>
+                  <div class="contact__image">
+                    <img src="img/Shipping%201.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="right__contact__section">
-            <div class="contact__form">
-              <form action="#">
-                <div class="basic__info">
-                  <div class="first__name input__box">
-                    <label for="first__name">First Name</label>
-                    <input type="text" name="first__name" id="first__name" required>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="right__contact__section">
+              <div class="contact__form">
+                <form action="#">
+                  <div class="basic__info">
+                    <div class="first__name input__box">
+                      <label for="first__name">First Name</label>
+                      <input type="text" name="first__name" id="first__name" required>
+                    </div>
+                    <div class="last__name input__box">
+                      <label for="last__name">Last Name</label>
+                      <input type="text" name="last__name" id="last__name" required>
+                    </div>
+                    <div class="email input__box">
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="phone__number input__box">
+                      <label for="number">Phone Number</label>
+                      <input type="number" name="number" id="number" min="0" required>
+                    </div>
                   </div>
-                  <div class="last__name input__box">
-                    <label for="last__name">Last Name</label>
-                    <input type="text" name="last__name" id="last__name" required>
+                  <div class="service__needed">
+                    <p class="radio_title">Please select your favorite Web language:</p>
+                    <div class="radio__button">
+                      <div>
+                        <input type="radio" id="web_design" name="fav_language" value="Web Design" required>
+                        <label for="web_design">Web Design</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="Web_Development" name="fav_language" value="Web Development" required>
+                        <label for="Web_Development">Web Development</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="UI/UX" name="fav_language" value="UI/UX" required>
+                        <label for="UI/UX">UI/UX Design</label>
+                      </div>
+                    </div>
                   </div>
-                  <div class="email input__box">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+                  <div class="massage__box">
+                    <p class="msg__title">Message Box</p>
+                    <textarea rows="4" cols="50" name="comment" required></textarea>
                   </div>
-                  <div class="phone__number input__box">
-                    <label for="number">Phone Number</label>
-                    <input type="number" name="number" id="number" min="0" required>
-                  </div>
-                </div>
-                <div class="service__needed">
-                  <p class="radio_title">Please select your favorite Web language:</p>
-                  <input type="radio" id="web_design" name="fav_language" value="Web Design" required>
-                  <label for="web_design">Web Design</label>
-                  <input type="radio" id="Web_Development" name="fav_language" value="Web Development" required>
-                  <label for="Web_Development">Web Development</label>
-                  <input type="radio" id="UI/UX" name="fav_language" value="UI/UX" required>
-                  <label for="UI/UX">UI/UX Design</label>
-                </div>
-                <div class="massage__box">
-                  <p class="msg__title">Message Box</p>
-                  <textarea rows="4" cols="50" name="comment" required></textarea>
-                </div>
-                <button type="submit" id="contact__button"> <span>Send Massage</span> </button>
-              </form>
+                  <button type="submit" id="contact__button"> <span>Send Massage</span> </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -475,20 +528,25 @@
   <!-- footer section -->
   <footer>
     <div class="container">
-      <div class="footer__content">
-        <div class="footer__logo">
-          <img src="img/Logo.svg" alt="">
-          <p>© 2021 Codershero Inc.</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="footer__logo">
+            <img src="img/Logo.svg" alt="">
+            <p>© 2021 Codershero Inc.</p>
+          </div>
         </div>
-        <div class="hero__content__socialMenu">
-          <ul class="social__icon">
-            <li><i class="fab fa-facebook-f"></i></li>
-            <li><i class="fab fa-linkedin"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fas fa-basketball-ball"></i></li>
-            <li><i class="fab fa-behance"></i></li>
-          </ul>
+        <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+          <div class="hero__content__socialMenu">
+            <ul class="social__icon">
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-linkedin"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fas fa-basketball-ball"></i></li>
+              <li><i class="fab fa-behance"></i></li>
+            </ul>
+          </div>
         </div>
+      </div>
   </footer>
 
   <!--JavaScript-->
