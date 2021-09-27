@@ -1,11 +1,5 @@
-/* .container {
-  max-width: 1500px;
-  margin: 0 auto;
-} */
 /*Header Design*/
-.nav-bg {
-  background-color: #fffef0;
-}
+
 #navbar {
   display: grid;
   grid-template-columns: 1fr 2fr;
