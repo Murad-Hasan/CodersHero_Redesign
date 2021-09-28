@@ -121,3 +121,23 @@
   /* overflow: hidden; */
   object-fit: cover;
 }
+/* footer */
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social__icon {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.social__icon > li > i {
+  font-size: 30px;
+  cursor: pointer;
+}
+.social__icon > li > i:hover {
+  color: #cb410b;
+}

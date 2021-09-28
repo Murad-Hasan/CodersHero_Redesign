@@ -77,18 +77,6 @@
   line-height: 20px;
   color: #ffffff;
 }
-.social__icon {
-  display: flex;
-  gap: 30px;
-  margin-top: 20px;
-}
-.social__icon > li > i {
-  font-size: 30px;
-  cursor: pointer;
-}
-.social__icon > li > i:hover {
-  color: #cb410b;
-}
 
 /*service section*/
 .service_header {
@@ -616,13 +604,6 @@
 }
 .contact__image > img {
   width: 100%;
-}
-/* footer */
-.footer__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
 }
 
 /*media query*/
