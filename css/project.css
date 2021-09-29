@@ -1,0 +1,58 @@
+.project__categoryBtn,
+.projects__mainBtn {
+  padding: 10px 0px;
+}
+
+.project__mainBtn,
+.project__button {
+  background-color: #fec200;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.project__button::before {
+  content: "";
+  position: absolute;
+  background-color: #9fcc29;
+  width: 100%;
+  height: 85%;
+  top: 0;
+  left: 0;
+  transform: rotate(-37deg);
+  z-index: -1;
+}
+.button__text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.project__image {
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 461px) {
+  .project__categoryBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .project__button::before {
+    content: "";
+    position: absolute;
+    background-color: #9fcc29;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(-10deg);
+    z-index: -1;
+  }
+}

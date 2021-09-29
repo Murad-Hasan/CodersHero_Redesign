@@ -141,3 +141,171 @@
 .social__icon > li > i:hover {
   color: #cb410b;
 }
+/*contact section*/
+#contact__section {
+  background: rgba(231, 231, 231, 0.4);
+  backdrop-filter: blur(20px);
+}
+.contact__section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 700px;
+}
+.left__contact__section {
+  flex: 1;
+}
+.right__contact__section {
+  flex: 1;
+}
+.basic__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first__name,
+.last__name,
+.email,
+.phone__number {
+  width: calc(100% / 2 - 20px);
+}
+.input__box > label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.input__box > input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+  background: transparent;
+}
+.service__needed .radio_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+  margin-bottom: 10px;
+}
+.radio__button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service__needed label {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.massage__box .msg__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+  padding: 20px 0px;
+}
+.massage__box textarea {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+#contact__button {
+  background: #fec200;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#contact__button:before {
+  content: "";
+  position: absolute;
+  background: #9fcc29;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  transform: rotate(-35deg);
+  z-index: -1;
+}
+#contact__button span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact__heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px;
+  gap: 8px;
+}
+.contact__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+}
+.contact__sub__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+.main__contact__container {
+  height: 550px;
+  max-width: 550px;
+  background-color: #fafbfd;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.contact__info__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.contact__info__paragraph {
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.contact__info__number,
+.contact__info__email {
+  font-size: 15px;
+  line-height: 26px;
+}
+.contact__social__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social__media__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.social__media__icon > li > i {
+  font-size: 25px;
+}
+.social__media__icon > li > i:hover {
+  cursor: pointer;
+  color: #cb410b;
+}
+.contact__image {
+  position: relative;
+  width: 320px;
+}
+.contact__image > img {
+  width: 100%;
+}
